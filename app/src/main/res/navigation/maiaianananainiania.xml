@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maiaianananainiania"
+    app:startDestination="@id/oneneneiFragment">
+
+    <fragment
+        android:id="@+id/oneneneiFragment"
+        android:name="com.tocaboca.tocalifeworldd.vfbghyhy.OneneneiFragment"
+        android:label="fragment_onenenei"
+        tools:layout="@layout/fragment_onenenei" >
+        <action
+            android:id="@+id/action_oneneneiFragment_to_tvooooFragment"
+            app:destination="@id/tvooooFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tvooooFragment"
+        android:name="com.tocaboca.tocalifeworldd.vfbghyhyhy.TvooooFragment"
+        android:label="fragment_tvoooo"
+        tools:layout="@layout/fragment_tvoooo" >
+        <action
+            android:id="@+id/action_tvooooFragment_to_threeeFragment"
+            app:destination="@id/threeeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/threeeFragment"
+        android:name="com.tocaboca.tocalifeworldd.vfbghyhy.ThreeeFragment"
+        android:label="fragment_threee"
+        tools:layout="@layout/fragment_threee" >
+        <action
+            android:id="@+id/action_threeeFragment_to_fooorrFragment"
+            app:destination="@id/fooorrFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fooorrFragment"
+        android:name="com.tocaboca.tocalifeworldd.frhyhyjhy.FooorrFragment"
+        android:label="fragment_fooorr"
+        tools:layout="@layout/fragment_fooorr" >
+        <action
+            android:id="@+id/action_fooorrFragment_to_fiveeeFragment"
+            app:destination="@id/fiveeeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fiveeeFragment"
+        android:name="com.tocaboca.tocalifeworldd.frhyhyjhy.FiveeeFragment"
+        android:label="fragment_fiveee"
+        tools:layout="@layout/fragment_fiveee" />
+</navigation>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Affluent Beam</string>
+    <string name="facebook_app_id">2661006097375754</string>
+    <string name="fb_login_protocol_scheme">fb2661006097375754</string>
+    <string name="facebook_client_token">5be3aae45e659dc63ecd554c4b82ad9c</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
